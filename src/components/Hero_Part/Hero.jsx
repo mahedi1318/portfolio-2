@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="container">
             <div className='grid xl:grid-cols-2 mb:grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6 relative z-0'>
                 <div className=''>
-                    <h4 className='font-Poppins text-2xl text-white'>Hello, I'm</h4>
+                    <h4 className='font-Poppins text-2xl text-white'>Hello, I&apos;m</h4>
                     <h3 className='font-satisfy text-4xl font-semibold text-white mt-4'>Mahedi Hassan</h3>
                     <p className='font-Poppins text-[14px] font-normal text-white xl:w-[554px] lg:w-[554px] mb:w-[298px] mt-6 leading-6 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique architecto amet itaque sequi quis. Quas,
                      sed corporis dicta reprehenderit, totam tempora deserunt consequatur cum soluta magnam ea aliquid provident modi.</p>
