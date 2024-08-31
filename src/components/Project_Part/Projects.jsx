@@ -14,7 +14,7 @@ const Projects = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8'>
             {ProjectData?.map((item)=>{
                 return(
-                    <div className='p-4 border border-[#504f4f] rounded-xl hover:scale-110 duration-500 mb-4 hover:shadow-lg hover:shadow-[#504f4f]'>                      
+                    <div key={item.id} className='p-4 border border-[#504f4f] rounded-xl hover:scale-110 duration-500 mb-4 hover:shadow-lg hover:shadow-[#504f4f]'>                      
                         <div className='h-[300px] '>
                             <Image className='w-[100%] h-full object-cover rounded-lg' src={item.img} alt=''/>
                         </div>
