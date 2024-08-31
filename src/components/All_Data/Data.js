@@ -6,6 +6,7 @@ import Image1 from "../../assets/project-1.png"
 import Image2 from "../../assets/project-2.png"
 import Image3 from "../../assets/project-3.png"
 import Image4 from "../../assets/project-4.png"
+import Image5 from "../../assets/images-5.PNG"
 
 export const NavbarData = [
     {
@@ -62,6 +63,8 @@ export const ProjectData = [
         title: "project 1",
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consectetur cumque labore laboriosam non corporis.",
         link: "/project",
+        projectLink: "https://my-portfoliomahedi.netlify.app",
+        gitHubLink: "https://github.com/mahedi1318/My-Portfolio",
     },
     {
         id: 2,
@@ -69,6 +72,8 @@ export const ProjectData = [
         title: "project 2",        
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consectetur cumque labore laboriosam non corporis.",
         link: "/project",
+        projectLink: "https://esho-ecommerce-project.netlify.app",
+        gitHubLink: "https://github.com/mahedi1318/Ecommerce-one",
     },
     {
         id: 3,
@@ -76,6 +81,8 @@ export const ProjectData = [
         title: "project 3",       
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consectetur cumque labore laboriosam non corporis.",
         link: "/project",
+        projectLink: "https://kaffen-project-three.netlify.app",
+        gitHubLink: "https://github.com/mahedi1318/KAFFEN_PROJECT",
     },  
     {
         id: 4,
@@ -83,5 +90,16 @@ export const ProjectData = [
         title: "project 3",       
         details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consectetur cumque labore laboriosam non corporis.",
         link: "/project",
+        projectLink: "https://devento-project-one.netlify.app",
+        gitHubLink: "https://github.com/mahedi1318/My-Portfolio",
+    },  
+    {
+        id: 5,
+        img: Image5,
+        title: "project 3",       
+        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consectetur cumque labore laboriosam non corporis.",
+        link: "/project",
+        projectLink: "https://coffee-web-project-2.netlify.app",
+        gitHubLink: "https://github.com/mahedi1318/coffe_web_project_2",
     },  
 ]

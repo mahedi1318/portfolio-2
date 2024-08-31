@@ -23,8 +23,12 @@ const Projects = () => {
                             <p className='font-Poppins text-[13px] font-normal text-[#cccccc] mt-3 leading-6'>{item.details}</p>
                         </div>                       
                         <div className='flex xl:gap-6 mb:gap-3 mt-8 text-white justify-between px-4'>
+                          <a href={item.projectLink}>
                             <button className='font-Poppins text-[14px] py-2 px-3 bg-gradient-to-r border border-[#cccc] rounded-lg'>View Project</button>
+                          </a>
+                          <a href={item.gitHubLink}>
                             <button className='font-Poppins text-[14px] py-2 px-3 bg-gradient-to-r from-secondry to-secondry/50 rounded-lg'>View Code</button>
+                          </a>
                         </div>
                     </div>
                 )
